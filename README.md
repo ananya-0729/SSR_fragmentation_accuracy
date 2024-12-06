@@ -1,6 +1,7 @@
-**Genome Fragmentation and SSR Study**
+**SSR_fragmentation_accuracy**
 
-This project investigates the effects of genome fragmentation and random sequence modifications on genome assembly quality and SSR (Simple Sequence Repeat) identification accuracy. By simulating real-world 	challenges such as sequencing errors and fragmented assemblies, the provided tools empower researchers to explore the robustness of assembly pipelines and SSR analysis workflows.
+This project demonstrates genome fragmentation and the insertion of random characters into DNA sequences to analyze the impact of genome quality on SSR identification.
+
 
 **Features**
 1. Random Sequence Modification
