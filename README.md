@@ -14,15 +14,13 @@ The nCutter.pl script fragments sequences wherever an 'X' is present. Each fragm
 Many tools require single-line FASTA files for processing. This project includes an awk command to efficiently reformat multi-line FASTA files into single-line format for compatibility.
 
 
-**Usage**
-
-#Prerequisites
+**Prerequisites**
 Ensure you have the following installed:
 
 -Perl: Required for running the core scripts (xInsert.pl and nCutter.pl).
 -Bash: For running the FASTA formatting utility.
 
-##Step-by-Step Workflow
+**Step-by-Step Workflow**
 Step 1: Convert Multi-Line FASTA to Single-Line
 FASTA files with multi-line sequences must be reformatted before using the scripts. Use the following awk command:
 ```bash
