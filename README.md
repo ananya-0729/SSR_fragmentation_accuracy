@@ -22,6 +22,7 @@ Ensure you have the following installed:
 - Bash: For running the FASTA formatting utility.
 
 **Step-by-Step Workflow**
+
 Step 1: Convert Multi-Line FASTA to Single-Line
 FASTA files with multi-line sequences must be reformatted before using the scripts. Use the following awk command:
 ```bash
