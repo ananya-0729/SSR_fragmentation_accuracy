@@ -17,8 +17,9 @@ Many tools require single-line FASTA files for processing. This project includes
 **Prerequisites**
 Ensure you have the following installed:
 
--Perl: Required for running the core scripts (xInsert.pl and nCutter.pl).
--Bash: For running the FASTA formatting utility.
+- Perl: Required for running the core scripts (xInsert.pl and nCutter.pl).
+
+- Bash: For running the FASTA formatting utility.
 
 **Step-by-Step Workflow**
 Step 1: Convert Multi-Line FASTA to Single-Line
