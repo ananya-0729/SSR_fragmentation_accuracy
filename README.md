@@ -74,7 +74,7 @@ PERF -i input.fasta -o perf_ssr.tsv -a -u repeat_units.txt
 6	  2 
 ```
 Options:
-- `a`: Generate a summary HTML report
-- `u`: Specifies the file containing minimum number of repeat units to search for.
+- `-a`: Generate a summary HTML report
+- `-u`: Specifies the file containing minimum number of repeat units to search for.
 
 ---
