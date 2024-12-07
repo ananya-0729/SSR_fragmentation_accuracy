@@ -53,7 +53,7 @@ perl scripts/xInsert.pl single_line.fa output_x_inserted.fa num_insertions
 ### **Step 3: Fragment Sequences**
 Run the  `xCutter.pl ` script to split sequences at each 'X' position.
 ```bash
-perl scripts/nCutter.pl < output_x_inserted.fa > output_fragments.fa  
+perl scripts/xCutter.pl < output_x_inserted.fa > output_fragments.fa  
 ```
 - Input: `output_x_inserted.fa` - Sequences with inserted 'X'.
 - Output: `output_fragments.fa` - Fragmented sequences with unique headers.
