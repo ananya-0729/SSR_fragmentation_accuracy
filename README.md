@@ -42,7 +42,7 @@ $ awk '/^>/ {printf("\n%s\n",$0);next; } { printf("%s",$0);} END {printf("\n");}
 - Output: `single_line.fa` - Reformatted single-line FASTA file.
 
 ### **Step 2: Insert Random 'X' Characters**
-Run the xInsert.pl script to introduce random 'X' characters into sequences.
+Run the  `xInsert.pl ` script to introduce random 'X' characters into sequences.
 ```bash
 perl scripts/xInsert.pl single_line.fa output_x_inserted.fa num_insertions
 ```
@@ -51,7 +51,7 @@ perl scripts/xInsert.pl single_line.fa output_x_inserted.fa num_insertions
 - Parameter: `num_insertions` - Number of 'X' characters to insert per sequence (eg- 10, 15, 100)
 
 ### **Step 3: Fragment Sequences**
-Run the nCutter.pl script to split sequences at each 'X' position.
+Run the  `xCutter.pl ` script to split sequences at each 'X' position.
 ```bash
 perl scripts/nCutter.pl < output_x_inserted.fa > output_fragments.fa  
 ```
