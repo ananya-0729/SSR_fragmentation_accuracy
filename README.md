@@ -20,7 +20,7 @@ The `PERF` tool is used to identify microsatellites from the test genome and fra
 
 ---
 
-##Prerequisites
+## Prerequisites
 
 Ensure you have the following installed:
 
@@ -76,3 +76,5 @@ PERF -i input.fasta -o perf_ssr.tsv -a -u repeat_units.txt
 Options:
 - `a`: Generate a summary HTML report
 - `u`: Specifies the file containing minimum number of repeat units to search for.
+
+---
