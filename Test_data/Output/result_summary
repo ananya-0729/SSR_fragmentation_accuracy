@@ -1,4 +1,0 @@
-Input Genome: `test_genome.fasta`(a single contiguous DNA sequence)
-Number of Insertions: Using the `xInsert.pl` script, 100 'X' characters were randomly inserted into the genome. The results were saved in `test_100_in.fasta`
-Genome Fragmentation: The `xCutter.pl` script fragmented the genome at the 'X' insertion points using `test_100_in.fasta` as input, resulting in 101 contigs written to the file `test_100_frg.fasta`
-
