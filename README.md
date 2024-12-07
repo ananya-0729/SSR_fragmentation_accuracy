@@ -25,7 +25,8 @@ The `PERF` tool is used to identify microsatellites from the test genome and fra
 Ensure you have the following installed:
 
 - **Perl:** Required for running the core scripts (`xInsert.pl` and `xCutter.pl`).  
-- **Bash:** For running the FASTA formatting utility.  
+- **Bash:** For running the FASTA formatting utility.
+- **QUAST:** For genome assembly quality assessment.
 - **PERF:** For microsatellite detection.
 
 ---
