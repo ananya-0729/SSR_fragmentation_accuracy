@@ -1,6 +1,6 @@
 # SSR_fragmentation_accuracy
 
-This project demonstrates genome fragmentation and the insertion of random characters into DNA sequences to analyze the impact of genome quality on SSR identification.
+This project demonstrates the impact of genome assembly quality on SSR identification.
 
 ---
 
